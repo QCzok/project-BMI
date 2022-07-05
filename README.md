@@ -3,9 +3,9 @@
 ## Aufgabenstellung - Teil 1
 Schreibe eine HTML Seite für einen BMI Rechner.
 
-Die HTML Seite muss erklären, worum es sich beim BMI handelt und wie er sich berechnet.
+Die HTML Seite sollte zuerst erklären, worum es sich beim BMI handelt und wie er sich berechnet.
 
-Anschließend muss die HTML Seite zwei Eingabefelder für das Gewicht und die Höhe haben und einen Button zur Berechnung.
+Anschließend sollte die HTML Seite zwei Eingabefelder für das Gewicht und die Höhe haben und einen Button zur Berechnung.
 
 Optional kannst du eine Tabelle erstellen, die den Normalbereich nach Altersgruppe anzeigt.
 
@@ -23,11 +23,11 @@ Verleihe deiner Seite einen Hintergrund und style optional die Tabelle.
 ## Aufgabenstellung - Teil 3
 Erstelle eine neue JavaScript Datei und schreibe eine Funktion für die Berechnung des BMI.
 
-Sie soll über getElementById() die eingegebene Größe und Gewicht laden.
+Sie soll über `querySelector` die eingegebene Größe und das Gewicht laden.
 
-Anschließend soll sie den BMI berechnen und über .innerHTML das errechnete Ergebnis in die HTML laden.
+Anschließend soll sie den BMI berechnen und über `.innerHTML` das errechnete Ergebnis in die HTML laden.
 
-Die Funktion wird über das onClick-Event des Buttons ausgeführt.
+Die Funktion wird über das `action` im Formular ausgeführt.
 
 ## Aufgabenstellung - Teil 4
 Teste deine Webseite.
